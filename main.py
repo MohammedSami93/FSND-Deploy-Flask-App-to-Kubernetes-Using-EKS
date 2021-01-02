@@ -29,6 +29,7 @@ def _logger():
     stream_handler = logging.StreamHandler()
     stream_handler.setFormatter(formatter)
 
+
     log.addHandler(stream_handler)
     return log
 
