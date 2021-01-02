@@ -79,7 +79,7 @@ def auth():
     body = {'email': email, 'password': password}
 
     user_data = body
-
+ 
     return jsonify(token=_get_jwt(user_data).decode('utf-8'))
 
 
